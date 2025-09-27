@@ -77,4 +77,4 @@ This plugin is licensed under the GPLv2 or later. You are free to use, modify, a
 For support, please contact the author at info@sticker.rs or visit the plugin support forum on WordPress.org.
 
 == Donate ==
-If you find this plugin useful, consider supporting its development with a donation via [PayPal](https://paypal.me/yourpaypalusername) or [Patreon](https://www.patreon.com/yourpatreonusername).
+If you find this plugin useful, consider supporting its development with a donation via [PayPal](paypal.me/StickerPlugin) or [Patreon](https://patreon.com/WordpressSTAGINGplugin).

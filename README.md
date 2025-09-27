@@ -2,7 +2,7 @@
 A powerful tool to create and sync WordPress staging sites with production, featuring safe database cloning and URL replacement.
 
 == Description ==
-
+DISCLAIMER: This plugin is distributed without any warranty. The author is not responsible for any issues that may arise from its use. Use at your own risk.
 The **Sticker STAGING Plugin** is a robust tool for WordPress developers and site administrators to manage staging environments with ease. It allows you to create a full copy of your WordPress site to a staging directory, clone the database, perform safe URL replacements (including serialized data), and synchronize changes between production and staging environments. Key features include:
 
 – **Create Staging Site**: Copy your entire WordPress site (files and database) to a staging environment.
@@ -84,17 +84,18 @@ If you find this plugin useful, consider supporting its development with a donat
 Моћан алат за креирање и синхронизацију WordPress staging сајтова са продукцијом, са безбедним клонирањем базе података и заменом URL-ова.
 
 == Опис ==
+ОДРИЦАЊЕ ОД ОДГОВОРНОСТИ: Овај плагин се дистрибуира без икакве гаранције. Аутор не сноси одговорност за евентуалне проблеме који могу настати његовом употребом. Користите на сопствени ризик.
 
 Sticker STAGING Plugin је поуздан алат за WordPress девелопере и администраторе сајтова који желе лако да управљају staging окружењима. Омогућава вам да направите комплетну копију вашег WordPress сајта у staging директоријум, клонрате базу података, извршите безбедне замене URL-ова (укључујући серијализоване податке) и синхронизујете измене између продукције и staging окружења. Кључне функције укључују:
 
-– Креирање staging сајта: Копирање целог WordPress сајта (фајлова и базе) у staging окружење.
-– Повлачење са продукције (Pull): Синхронизација фајлова и базе са продукционог сајта на staging, при чему се бришу постојећи staging подаци.
-– Слање на продукцију (Push): Безбедно пребацивање измена са staging-а на продукцију уз аутоматско прављење бекапа ради заштите од губитка података.
-– Безбедна замена URL-ова: Исправна обрада серијализованих података да би се спречило оштећење базе током замене URL-ова.
-– Управљање базом: Клонирање продукционе базе на staging и ручно управљање креденцијалима базе.
-– Безбедносне функције: Додавање .htaccess заштите и robots.txt фајла да би се спречило индексирање staging сајта.
-– Логови: Детаљни логови свих операција, чувају се у wp-content/staging_logs/.
-– Бекап: Аутоматско креирање бекапа пре слања на продукцију, чувано у wp-content/backups/.
+– **Креирање staging сајта:** Копирање целог WordPress сајта (фајлова и базе) у staging окружење.
+– **Повлачење са продукције (Pull):** Синхронизација фајлова и базе са продукционог сајта на staging, при чему се бришу постојећи staging подаци.
+– **Слање на продукцију (Push):** Безбедно пребацивање измена са staging-а на продукцију уз аутоматско прављење бекапа ради заштите од губитка података.
+– **Безбедна замена URL-ова:** Исправна обрада серијализованих података да би се спречило оштећење базе током замене URL-ова.
+– **Управљање базом:** Клонирање продукционе базе на staging и ручно управљање креденцијалима базе.
+– **Безбедносне функције:** Додавање .htaccess заштите и robots.txt фајла да би се спречило индексирање staging сајта.
+– **Логови:** Детаљни логови свих операција, чувају се у wp-content/staging_logs/.
+– **Бекап:** Аутоматско креирање бекапа пре слања на продукцију, чувано у wp-content/backups/.
 
 Овај плагин је идеалан за девелопере којима је потребна поуздана staging опција без ослањања на алате хостинг провајдера. Даје вам потпуну контролу над staging процесом и омогућава сигурно и ефикасно управљање WordPress окружењима.
 
